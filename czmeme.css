@@ -1,0 +1,68 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: gold;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: magenta;
+}
+
+.meme {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.textTop {
+    position:absolute,;
+    text-align: left;
+    text-shadow: 2px 2px 4px #000;
+    top: 30px;
+    left: 30px;
+    color: darkblue;
+    z-index: 2;
+}
+
+.textBottom {
+    position: absolute,;
+    text-align: right;
+    text-shadow: 2px 2px 4px #000;
+    bottom: 10px;
+    left: 30px;
+    color: darkblue;
+    z-index: 2;
+}
+
+.meme img {
+    position:relative;
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 5px;
+    cursor: pointer;
+}
