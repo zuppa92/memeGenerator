@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: aqua;
+    text-align: center;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+}
+
+.meme {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+
+.meme img {
+    width: 100%;
+    height: auto;
+}
+
+.textTop, .textBottom {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.textTop {
+    top: 10px;
+}
+
+.textBottom {
+    bottom: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0 5px;
+    cursor: pointer;
+}
